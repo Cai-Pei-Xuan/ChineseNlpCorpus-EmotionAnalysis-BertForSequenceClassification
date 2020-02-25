@@ -4,7 +4,6 @@
 ## 檔案說明
 ### Data
 - data_split.py : 將waimai_10k_zh_tw.csv切割成train(6000筆)、test(2000筆)資料的程式(正負面句子都各占一半)
-- core.py : 處理dataset和label的轉換
 - preprocess_data.py : BertForSequenceClassification的前處理
 - train.py : BertForSequenceClassification的訓練
 - predict.py : BertForSequenceClassification的預測
