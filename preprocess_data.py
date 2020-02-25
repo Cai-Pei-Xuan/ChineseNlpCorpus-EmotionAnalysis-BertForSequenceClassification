@@ -54,7 +54,7 @@ def convert_data_to_feature(FileName):
             c.append(0)
     
     segment_ids = [[0]*max_seq_len for i in range(len(Sentences))]         # token_type_ids # segment_ids存儲的是句子的id，id為0就是第一句，id為1就是第二句
-    position_ids = []                                                      # position_ids:1代表是真實的單詞id，0代表補全位
+    position_ids = []                                                      # attention_mask # position_ids:1代表是真實的單詞id，0代表補全位
     for i in range(len(Sentences)):
         position_id = []
         for j in range(original_length[i]):
