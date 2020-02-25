@@ -1,0 +1,6 @@
+pytorch
+transformers
+
+# https://pytorch.org/get-started/locally/
+# https://pypi.org/project/transformers/
+# §ó·stransformers:pip install -U transformers OR pip install -U transformers --user
