@@ -14,7 +14,6 @@ def data_Split(FileName):
     line = fp.readline()        # 第一行是label,review
     line = fp.readline()
 
-    cut_sent_list = []
     train_sent_num = 3000
     test_sent_num = 1000
     train_positive_num = 0
